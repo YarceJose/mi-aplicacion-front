@@ -1,3 +1,3 @@
- export function Registro(){
+export function Registro(){
     
- }
+}
