@@ -5,21 +5,21 @@ import { Home } from "../pages/home/Home";
 
 
 export let AppRouter =[
-    {
-        path:"/login",
-        element:<Login />
-    },
-    {
-        path:"/registro",
-        element:<Registro />
-    },
-    {
-        path:"/dashboard",
-        element:<Dashboard />
-    },
-    {
-        path:"/",
-        element: <Home />
-    },
+        {
+                path:"/login",
+                element:<Login />
+        },
+        {
+                path:"/registro",
+                element:<Registro />
+        },
+        {
+                path:"/dashboard",
+                element:<Dashboard />
+        },
+        {
+                path:"/",
+                element: <Home />
+        },
 
 ]
