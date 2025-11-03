@@ -1,0 +1,29 @@
+.quick-actions {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    padding: 18px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 220px;
+}
+
+.quick-actions h4 {
+    margin: 0 0 8px 0;
+    color: #fff;
+}
+
+.quick-actions button {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.03);
+    color: #d6e3ef;
+    cursor: pointer;
+}
+
+.quick-actions .primary {
+    background: linear-gradient(90deg, #6c5cff);
+    color: #fff;
+}

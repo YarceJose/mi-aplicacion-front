@@ -1,0 +1,25 @@
+.cards-home{
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 22px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    width: 300px;
+    min-height: 140px;
+}
+
+.cards-home h4{
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.cards-home p{
+    color: #a8b3bd;
+    font-size: 14px;
+    margin: 0;
+}
