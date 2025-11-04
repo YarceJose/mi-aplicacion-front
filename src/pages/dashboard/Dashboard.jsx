@@ -1,7 +1,7 @@
 import './Dashboard.css'
 import { Sidebar } from '../../components/Sidebar'
 import { StatCard } from '../../components/StatCard'
-import { Notifications } from '../../components/Notifications'
+import { Notificacion } from '../../components/Notificacion'
 import { QuickActions } from '../../components/QuickActions'
 import { Nav } from '../../components/Nav'
 
