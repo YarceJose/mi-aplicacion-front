@@ -10,32 +10,30 @@ export function Login() {
             <p className='parrafo-login'>
                 Bienvenido de nuevo. Accede a tu cuenta.
             </p>
-            <form className="form" onSubmit={(e) => e.preventDefault()}>
-                <div className="container-label-input">
-                    <label className="labels" htmlFor="username">
+            <form className="form-login">
+                <div className="container-label-input-login">
+                    <label className="label-login">
                         Email o Nombre de Usuario
                     </label>
                     <input
-                        className="imputs"
+                        className="input-login"
                         placeholder="tu@ejemplo.com"
                         id="username"
                         name="username"
                         type="text"
-                        aria-label="Email o Nombre de Usuario"
                     />
                 </div >
-                <div className="container-label-input">
-                    <label className="labels" htmlFor="password">
+                <div className="container-label-input-login">
+                    <label className="label-login">
                         Contraseña
                     </label>
                     <Link className='link-contraseña'>¿Olvidaste tu contraseña?</Link>
                     <input
-                        className="imputs"
+                        className="input-login"
                         placeholder="••••••••"
                         id="password"
                         name="password"
                         type="password"
-                        aria-label="Contraseña"
                     />
                 </div>
                 <button className="button-login"
