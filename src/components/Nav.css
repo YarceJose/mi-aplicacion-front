@@ -1,7 +1,3 @@
-/* * {
-    outline: 1px solid black;
-} */
-
 .header-nav {
     padding: 20px 28px;
     display: flex;
@@ -37,6 +33,7 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .link {
