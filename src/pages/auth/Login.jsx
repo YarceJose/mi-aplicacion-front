@@ -36,11 +36,11 @@ export function Login() {
                         type="password"
                     />
                 </div>
-                <button className="button-login"
+                <Link to={"/"} className="button-login"
                     type="submit"
                 >
                     Iniciar Sesion
-                </button>
+                </Link>
             </form>
             <div className="container-sin-cuenta">
                 ¿No tienes una cuenta? <Link className='direccion-registro' to="/registro">Regístrate</Link>

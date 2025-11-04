@@ -56,12 +56,12 @@ export function Registro() {
                     />
                 </div>
 
-                <button
+                <Link to={"/"}
                     className='button-registro'
                     type="submit"
                 >
                     Registrarse
-                </button>
+                </Link>
             </form>
             <div className="container-tiene-cuenta">
                 ¿Ya tiene una cuenta?. <Link className='direccion-login' to="/login">Inicie sesión</Link>

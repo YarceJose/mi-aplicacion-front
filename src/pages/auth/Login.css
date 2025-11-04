@@ -6,7 +6,7 @@
    align-items: center;
 }
 
-.form {
+.form-login{
    width: 350px;
    display: flex;
    flex-direction: column;
@@ -17,7 +17,7 @@
    transform: translateY(30px);
 }
 
-.container-label-input {
+.container-label-input-login{
    height: 70px;
    display: flex;
    flex-direction: column;
@@ -27,7 +27,7 @@
    margin-left: 25px;
 }
 
-.imputs {
+.input-login{
    height: 30px;
    border-radius: 10px;
    outline: none;
@@ -38,7 +38,7 @@
    transition: box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
-.imputs:hover {
+.input-login:hover {
    border-color: rgba(54, 110, 255, 0.95);
    box-shadow: 0 0 0 4px rgba(54, 110, 255, 0.12);
 }
@@ -58,6 +58,10 @@
    border-radius: 8px;
    cursor: pointer;
    font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
 }
 
 .link-contraseña {

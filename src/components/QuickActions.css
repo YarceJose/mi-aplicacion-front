@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-.quick-actions .primary {
+.quick-actions :active{
     background: linear-gradient(90deg, #6c5cff);
     color: #fff;
 }
