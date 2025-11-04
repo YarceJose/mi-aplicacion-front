@@ -39,7 +39,7 @@ export function Dashboard() {
 
                     <div className="content-row">
                         <div className="left-col">
-                            <Notifications items={notes} />
+                            <Notificacion items={notes} />
                         </div>
 
                         <aside className="right-col">
