@@ -7,7 +7,7 @@ export function Nav(){
             <h1>Mi Aplicación</h1>
             <div className='div-link-nav'>
                 <Link to={"/login"} className='links'>Iniciar Sesión</Link>
-                <button className='buttoon-link'><Link to={"./registro"} className='link'>Registrarse</Link> </button>
+                <Navigate to={"./registro"} className="buttoon-link">Registrarse</Navigate>
             </div>
         </header>
     )
