@@ -1,7 +1,7 @@
 import './Dashboard.css'
 import { Sidebar } from '../../components/Sidebar'
 import { StatCard } from '../../components/StatCard'
-import { Notificacion } from '../../components/Notificacion'
+import { Notifications } from '../../components/Notifications'
 import { QuickActions } from '../../components/QuickActions'
 import { Nav } from '../../components/Nav'
 
@@ -23,7 +23,7 @@ export function Dashboard() {
         <div className="dashboard-page">
             <Sidebar />
 
-            <main  className="dashboard-main">
+            <div className="dashboard-main">
                 <Nav />
 
                 <div className="dashboard-inner">
@@ -39,7 +39,7 @@ export function Dashboard() {
 
                     <div className="content-row">
                         <div className="left-col">
-                            <Notificacion items={notes} />
+                            <Notifications items={notes} />
                         </div>
 
                         <aside className="right-col">
@@ -47,7 +47,7 @@ export function Dashboard() {
                         </aside>
                     </div>
                 </div>
-            </main>
+            </div>
         </div>
     )
 }
