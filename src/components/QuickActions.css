@@ -21,6 +21,9 @@
     background: rgba(255, 255, 255, 0.03);
     color: #d6e3ef;
     cursor: pointer;
+    &:hover{
+            background: linear-gradient(90deg, #6c5cff);
+    }
 }
 
 .quick-actions .primary {
